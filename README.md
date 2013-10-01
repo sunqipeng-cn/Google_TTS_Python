@@ -4,7 +4,7 @@ Google_TTS_Python
 Google TTS.
 
 ## 简介
-谷歌翻译中，中文TTS的接口提取。
+谷歌翻译中文TTS的接口提取。
 
 ## 依赖
 - python-requests模块
