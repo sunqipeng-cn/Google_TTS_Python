@@ -14,6 +14,8 @@ Google TTS.
 ## 功能
 - say(str), 念出str的内容，不产生文件
 - tts(str), 在当前目录下生成一个名为tts-str.mpeg的文件
+- python tts.py "要读的内容"  念出要读的内容 
+- python tts.py -f filename  逐行念出要读的文件 
 
 ## 备注
 请随意使用。

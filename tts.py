@@ -31,5 +31,11 @@ def say(str):
 
 if __name__ == "__main__":
     import sys, locale
-    str = sys.argv[1].decode(locale.getdefaultlocale()[1]).encode('UTF-8')
-    say(str)
+    if sys.argv[1] != "-f":
+        str = sys.argv[1].decode(locale.getdefaultlocale()[1]).encode('UTF-8')
+        say(str)
+    else:
+        f = open(sys.argv[2], "r")
+        while str:
+            str = f.readline()
+            say(str)
